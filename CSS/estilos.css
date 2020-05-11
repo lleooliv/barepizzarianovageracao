@@ -1,0 +1,41 @@
+body {
+    background-image: url('https://wallpaperplay.com/walls/full/2/7/8/13899.jpg');
+    background-size: auto 100vh;
+    font-family: Blippo, fantasy;
+  }
+  
+  .menu{
+    background-color: white;
+    
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  a{
+    color: Firebrick;
+    text-decoration:none;
+  }
+  
+  a:hover{
+   
+    text-decoration:underline;
+  }
+  
+  .site-title{
+    color: whitesmoke;
+    text-align: center; 
+  }
+  
+  .site-subtitle{
+    color:Goldenrod;
+    text-align: center;
+    font-family:DejaVu Sans Mono, monospace;
+    font-style: italic;
+  }
