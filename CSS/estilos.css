@@ -1,41 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-image: url('https://wallpaperplay.com/walls/full/2/7/8/13899.jpg');
+    background-image: url('../img/fundo.jpg');
     background-size: auto 100vh;
     font-family: Blippo, fantasy;
+    font-size: 10px;
   }
   
-  .menu{
+/* Se a tela estiver no minimo 400px vai carregar esses estilos*/
+@media (min-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+    }
+
+@media (min-width: 400px) {
+        body {
+            font-size: 14px;
+        }
+        }
+
+@media (min-width: 600px) {
+        body {
+            font-size: 18px;
+        }
+        }
+
+ header{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
     background-color: white;
+    position: fixed;
+    width: 100vw; 
+    top: 0;
     
   }
+
+.menu a{
+    display: block;
+    padding: 10px 20px;
+
+  }
   
-  .menu li {
+.menu li {
     list-style: none;
   }
   
-  .menu ul {
+.menu ul {
     display: flex;
     justify-content: space-around;
   }
   
-  a{
+ a{
     color: Firebrick;
     text-decoration:none;
   }
   
-  a:hover{
+a:hover{
    
     text-decoration:underline;
   }
   
-  .site-title{
+.site-title{
     color: whitesmoke;
     text-align: center; 
   }
+
+.site-title{
+    font-size: 3em;
+}
   
   .site-subtitle{
     color:Goldenrod;
     text-align: center;
     font-family:DejaVu Sans Mono, monospace;
     font-style: italic;
+  }
+  
+  .img-portfolio{
+    height: 190px;
+    width: 190px;
+    display: flex;
   }
